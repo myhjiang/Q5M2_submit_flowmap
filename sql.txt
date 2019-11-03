@@ -1,0 +1,23 @@
+-- pre requisit: user csv, check-in csv and country level json already in DB, check-in already coded to country with st_within
+
+-- filter inactive users
+create table s6039677.active_user as
+select userid, count(*) as checkin_count
+from s6039677.checkin
+group by userid
+having count(*)>10
+
+-- make active checkin table
+create table s6039677.active_checkin as
+select checkin.userid, country from s6039677.checkin as checkin, s6039677.active_user as active
+where checkin.userid = active.userid
+
+
+-- select country on active checkin
+
+SELECT userid, country
+  FROM (SELECT userid, country, ROW_NUMBER() OVER (PARTITION BY userid ORDER BY freq DESC) AS rn
+          FROM (  SELECT userid, country, COUNT('x') AS freq
+                    FROM s6039677.active_checkin
+                GROUP BY 1, 2) country_freq) ranked_country_req
+ WHERE rn = 1 and country is not null
