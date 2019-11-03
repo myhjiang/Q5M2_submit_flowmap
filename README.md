@@ -8,9 +8,11 @@ make_data.py: get country level user count and flow between countries.
 ## Data
 
 ## Dash app
+available at https://dashsamplemmmmmm.herokuapp.com/ 
 requirements.txt & app.py <br>
 **Notice: networkx 1.10 is required to run the script proporly**
 
 
 ## Flourish mash-up
+available at https://gisedu.itc.utwente.nl/student/s6039677/flourish.html
 flourish.html & data_for_flourish.py
