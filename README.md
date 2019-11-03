@@ -16,3 +16,8 @@ requirements.txt & app.py <br>
 ## Flourish mash-up
 available at https://gisedu.itc.utwente.nl/student/s6039677/flourish.html  <br>
 flourish.html & data_for_flourish.py
+
+
+## Source
+Flourish: https://flourish.studio/ <br>
+Dash/Plotly: https://dash.plot.ly/
