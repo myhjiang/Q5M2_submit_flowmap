@@ -2,7 +2,7 @@
 reproducibility materials Q5M2 geo-visualization
 
 ## Data pre-processing
-sql.txt: a few processing steps in sql to filter inactive user and get the user's "nationality".
+sql.txt: a few processing steps in sql to filter inactive user and get the user's "nationality". Resulting data is exported to csv files. 
 make_data.py: get country level user count and flow between countries.
 
 ## Data
