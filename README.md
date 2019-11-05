@@ -16,7 +16,8 @@ app.py for the actual app <br>
 
 ## Flourish mash-up
 available at https://gisedu.itc.utwente.nl/student/s6039677/flourish.html  <br>
-flourish.html (main file) & data_for_flourish.py (making data ready for flourish)
+flourish.html (main file containing all the flourish export div's) <br> 
+data_for_flourish.py (making data ready for flourish)
 
 
 ## Source
