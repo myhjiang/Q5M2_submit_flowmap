@@ -3,7 +3,7 @@ reproducibility materials Q5M2 geo-visualization
 
 ## Data pre-processing
 sql.txt: a few processing steps in sql to filter inactive user and get the user's "nationality". Resulting data is exported to csv files. 
-make_data.py: get country level user count and flow between countries.
+make_data.py: get country level user count and flow between countries. <br>
 **Notice: networkx 1.10 is required to run the script proporly**
 
 
@@ -11,7 +11,7 @@ make_data.py: get country level user count and flow between countries.
 available at https://dashsamplemmmmmm.herokuapp.com/ <br>
 requirements.txt for installationg of libraries <br> 
 app.py for the actual app <br>
-**Notice: networkx 1.10 is required to run the script proporly**
+**Notice: the versions of the libraries are super important**
 
 
 ## Flourish mash-up
