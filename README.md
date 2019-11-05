@@ -8,7 +8,7 @@ make_data.py: get country level user count and flow between countries. <br>
 
 
 ## Dash app
-available at https://dashsamplemmmmmm.herokuapp.com/ <br>
+available at https://dashsamplemmmmmm.herokuapp.com/  first loading will take some time due to Heroku server status <br>
 requirements.txt for installationg of libraries <br> 
 app.py for the actual app <br>
 **Notice: the versions of the libraries are super important**
